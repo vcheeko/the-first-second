@@ -2,9 +2,11 @@
 
 ## Current phase
 
-**v0.3 — First playable experiment implemented / play-test gate**
+**v0.3 — First playable mechanics experiment implemented / play-test gate**
 
 The project has moved from high-level mechanics into its first dependency-free browser experiment. The next version is blocked until v0.3 is actually run and reviewed.
+
+The browser experiment is **not the final product direction**. The long-term target is a high-end cinematic 3D game; see [`VISION.md`](VISION.md).
 
 ## Completed
 
@@ -16,6 +18,7 @@ The project has moved from high-level mechanics into its first dependency-free b
 - Preliminary trade mark status documented.
 - Seconds System v0.2 defined without locking premature numerical balance.
 - Browser prototype v0.3 implemented in `prototype/`.
+- High-end 3D visual target documented separately from prototype technology.
 
 ## Active gate — v0.3 play-test
 
@@ -87,6 +90,23 @@ Only after the single-player simulation rules are coherent, test multiple player
 - shared and contradictory events;
 - cross-layer interaction.
 
+### 3D vertical-slice gate
+
+Once the core seconds, identity, memory and simulation-transition rules are stable enough, move from disposable mechanics prototypes into a dedicated **high-fidelity 3D vertical slice**.
+
+That stage should establish:
+
+- final or near-final engine direction;
+- realistic / cinematic rendering target;
+- representative 3D environment;
+- one high-quality player state;
+- one visually convincing anomaly sequence;
+- one physical → non-physical transformation;
+- one simulation-boundary transition;
+- target hardware and performance budget.
+
+Do not spend heavily on final 3D art before the underlying rules survive the earlier mechanics tests.
+
 ## Legal / identity hold points
 
 These items are deliberately **not** executed automatically:
@@ -101,6 +121,8 @@ The working title remains **THE FIRST SECOND** while name clearance continues.
 
 ## Design principle
 
-Do not solve by documentation what should be discovered by a playable experiment.
+Do not confuse prototype fidelity with product ambition.
+
+Use the cheapest prototype that can answer the current design question, then invest in high-end 3D only when the rules are stable enough to justify it.
 
 Each version should reduce uncertainty and leave an auditable Git history of what changed and why.
