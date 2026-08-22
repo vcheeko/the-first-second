@@ -1,6 +1,6 @@
 # Copyright and Rights Notice
 
-Copyright © 2026 Miha Tavcar. All rights reserved.
+Copyright © 2026 Miha Tavčar. All rights reserved.
 
 **THE FIRST SECOND** is a publicly visible project, but this repository is **not open source and not open content** unless a specific file or contribution is explicitly released under a separate license.
 
@@ -10,7 +10,7 @@ All rights are reserved in the original copyrightable expression created for thi
 
 No license is granted to copy, reproduce, modify, distribute, sublicense, sell, commercially exploit, or create derivative works from that copyrighted material without prior permission from the rights holder, except for the limited permissions necessary to access and use the repository through GitHub under GitHub's applicable Terms of Service or where otherwise required by law.
 
-## Public repository does not mean public-domain
+## Public repository does not mean public domain
 
 Making this repository public does **not** dedicate its contents to the public domain and does not, by itself, grant an open-source or Creative Commons license.
 
@@ -18,9 +18,13 @@ Making this repository public does **not** dedicate its contents to the public d
 
 This notice does not claim exclusive copyright over abstract ideas, facts, scientific theories, philosophical questions, general game mechanics, or other subject matter that copyright law does not protect as such. Protection is asserted over the project's original protectable expression and implementation of those ideas to the extent provided by applicable law.
 
+## AI-assisted material
+
+AI tools may be used to assist with drafting, review, code, structure or other development work. This notice does not claim copyright beyond what applicable law recognises. Human-originated concepts, selections, edits, arrangements and other protectable contributions remain subject to the rights described here.
+
 ## Third-party material and future contributions
 
-Any third-party material remains subject to its own rights and license terms. Future contributor material should be accepted only under clear contribution terms so that ownership and permissions are documented before commercial use.
+Any third-party material remains subject to its own rights and license terms. Future contributor material should be accepted only under clear contribution terms so that ownership and permissions are documented before commercial use. See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Permission
 
