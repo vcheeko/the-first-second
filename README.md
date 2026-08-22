@@ -63,6 +63,14 @@ Reaching zero seconds does not necessarily mean game over.
 
 See [`SECONDS_SYSTEM.md`](SECONDS_SYSTEM.md) for the canonical v0.2 mechanics baseline.
 
+## Visual target
+
+The intended final experience is a **high-end cinematic 3D game with strong visual fidelity**.
+
+The current browser prototype is intentionally simple and exists only to validate mechanics before expensive 3D production. It is not the intended final art style, rendering quality, platform, or engine commitment.
+
+See [`VISION.md`](VISION.md) for the long-term 3D and presentation direction.
+
 ## First playable experiment
 
 A dependency-free browser experiment now exists in [`prototype/`](prototype/).
@@ -88,14 +96,15 @@ It is not presented as a scientific proof that reality is — or is not — a si
 
 ## Status
 
-**v0.3 — first playable experiment implemented; play-test pending.**
+**v0.3 — first playable mechanics experiment implemented; play-test pending.**
 
-The project does not advance to the identity/memory stage until this experiment is actually run and its results are reviewed. See [`ROADMAP.md`](ROADMAP.md).
+The project does not advance to the identity/memory stage until this experiment is actually run and its results are reviewed. The browser prototype is a mechanics test only; the long-term target remains a high-fidelity 3D game. See [`ROADMAP.md`](ROADMAP.md).
 
 ## Project records
 
 - [`CONCEPT.md`](CONCEPT.md) — canonical concept
 - [`SECONDS_SYSTEM.md`](SECONDS_SYSTEM.md) — canonical seconds mechanics baseline
+- [`VISION.md`](VISION.md) — high-end 3D visual and experience direction
 - [`ROADMAP.md`](ROADMAP.md) — staged public development roadmap
 - [`PROVENANCE.md`](PROVENANCE.md) — public origin and development provenance
 - [`COPYRIGHT.md`](COPYRIGHT.md) — copyright and rights notice
