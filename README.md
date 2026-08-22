@@ -61,6 +61,8 @@ A central design tension is that **more time may mean more stability, while less
 
 Reaching zero seconds does not necessarily mean game over.
 
+See [`SECONDS_SYSTEM.md`](SECONDS_SYSTEM.md) for the canonical v0.2 mechanics baseline.
+
 ## What this project is
 
 This repository is the public beginning of the experiment.
@@ -71,14 +73,15 @@ It is not presented as a scientific proof that reality is — or is not — a si
 
 ## Status
 
-**Concept / pre-prototype.**
+**v0.2 — mechanics definition / pre-prototype.**
 
-The first public version is focused on defining the rules of time, identity, simulation layers and the role of The First Second before committing to a game engine or final technical architecture.
-
-See [`CONCEPT.md`](CONCEPT.md) for the current canonical concept.
+The next safe development stage is the smallest playable experiment that demonstrates the relationship between seconds, stability, anomalies and a simulation boundary. See [`ROADMAP.md`](ROADMAP.md).
 
 ## Project records
 
+- [`CONCEPT.md`](CONCEPT.md) — canonical concept
+- [`SECONDS_SYSTEM.md`](SECONDS_SYSTEM.md) — canonical seconds mechanics baseline
+- [`ROADMAP.md`](ROADMAP.md) — staged public development roadmap
 - [`PROVENANCE.md`](PROVENANCE.md) — public origin and development provenance
 - [`COPYRIGHT.md`](COPYRIGHT.md) — copyright and rights notice
 - [`TRADEMARK.md`](TRADEMARK.md) — current project-name / trade-mark status
