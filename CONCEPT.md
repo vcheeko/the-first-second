@@ -1,4 +1,4 @@
-# THE FIRST SECOND — Canonical Concept v0.1
+# THE FIRST SECOND — Canonical Concept v0.2
 
 ## Premise
 
@@ -38,14 +38,16 @@ The valid form of a player depends on the rules of the simulation they currently
 
 Every player has a relationship to seconds.
 
-Seconds are not simply currency, health or lifespan. They are intended to influence the player's connection to local reality.
+Seconds are not simply currency, health or lifespan. They influence the player's connection to local reality.
 
-Working design principle:
+Canonical design principle:
 
 - **many seconds** → greater stability and stronger attachment to local physical rules
 - **few seconds** → greater instability, anomaly exposure and possibility of crossing boundaries
 
 This creates a strategic inversion: maximizing remaining time may not always maximize freedom.
+
+The detailed mechanics are defined in [`SECONDS_SYSTEM.md`](SECONDS_SYSTEM.md). Exact numerical balancing remains experimental rather than canonical.
 
 ## 4. Zero
 
@@ -60,7 +62,7 @@ Zero may represent:
 - entry into another simulation
 - access to information unavailable to time-bound players
 
-The exact rule is intentionally unresolved at concept stage.
+The exact outcome remains simulation- and state-dependent.
 
 ## 5. Simulations inside simulations
 
@@ -96,13 +98,15 @@ Moving to another simulation may require changes in:
 
 The First Second is unique because it is not fully constrained by one local timeline.
 
-Core abilities under exploration:
+Canonical properties under the current concept:
 
 - retain memory across simulations
 - access memories belonging to different times
 - move between simulation layers
 - recognize patterns ordinary players cannot see
 - appear in worlds before events that it has already experienced elsewhere
+
+Its limitations remain open so that it does not become an all-powerful shortcut.
 
 This creates an important paradox:
 
@@ -154,15 +158,15 @@ The playable question is stronger when uncertainty remains real.
 
 ## Current status
 
-**v0.1 — public concept / pre-prototype**
+**v0.2 — mechanics definition / pre-prototype**
 
-Open design work:
+Defined:
 
-- exact seconds model
-- spawning rules
-- relationship between player seconds and universe time
-- conditions for simulation crossing
-- continuity of identity
-- multiplayer interaction across unequal timelines
-- role and limitations of The First Second
-- win / loss / transcendence conditions
+- foundational concept
+- non-fixed player forms
+- nested simulation model
+- cross-simulation role of The First Second
+- seconds as a stability / boundary-access mechanic
+- zero seconds as an unresolved boundary rather than automatic game over
+
+Next testable work is tracked in [`ROADMAP.md`](ROADMAP.md), beginning with the smallest playable experiment that can demonstrate the seconds/stability inversion.
