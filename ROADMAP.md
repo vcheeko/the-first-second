@@ -2,41 +2,53 @@
 
 ## Current phase
 
-**v0.2 — Mechanics definition / pre-prototype**
+**v0.3 — First playable experiment implemented / play-test gate**
 
-The project is moving from a high-level simulation concept toward a testable ruleset.
+The project has moved from high-level mechanics into its first dependency-free browser experiment. The next version is blocked until v0.3 is actually run and reviewed.
 
 ## Completed
 
 - Public repository established.
-- Canonical concept v0.1 documented.
+- Canonical concept v0.2 documented.
 - Copyright / rights notice added.
 - Project provenance documented.
 - Contribution boundaries documented.
 - Preliminary trade mark status documented.
 - Seconds System v0.2 defined without locking premature numerical balance.
+- Browser prototype v0.3 implemented in `prototype/`.
 
-## Next safe development sequence
+## Active gate — v0.3 play-test
 
-### v0.3 — First playable experiment
-
-Goal: build the smallest simulation that can demonstrate the core inversion:
+Goal: verify that the smallest simulation actually communicates the core inversion:
 
 > More seconds increase local stability; fewer seconds increase exposure to reality boundaries.
 
-The first experiment should contain only:
+The implemented experiment contains:
 
 - one local world;
 - one player state;
-- a visible or inspectable seconds value;
-- a stability model;
-- at least three anomaly types;
-- one transition boundary;
-- one observable consequence of reaching a low-second state.
+- separate master time and player seconds;
+- an experimental stability model;
+- multiple anomaly / presentation states;
+- one observable boundary condition;
+- one observable consequence of reaching a low-second state;
+- `0 seconds` without a forced canonical outcome.
 
-It does not need final graphics, multiplayer, open-world content, or a commercial game engine commitment.
+Before v0.4 begins, the prototype must be opened and checked for:
+
+1. basic technical operation;
+2. clarity of the countdown and stability relationship;
+3. whether anomalies feel meaningfully different from ordinary damage;
+4. whether low seconds feel dangerous **and** potentially revealing;
+5. whether `0 seconds` creates curiosity instead of reading as a normal death screen.
+
+The numerical thresholds are test parameters, not canonical balance.
+
+## Next safe development sequence
 
 ### v0.4 — Identity and memory
+
+**BLOCKED BY v0.3 PLAY-TEST.**
 
 Test whether a player can cross a simulation boundary while preserving enough state to feel like the same entity.
 
