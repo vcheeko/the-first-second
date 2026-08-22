@@ -63,6 +63,21 @@ Reaching zero seconds does not necessarily mean game over.
 
 See [`SECONDS_SYSTEM.md`](SECONDS_SYSTEM.md) for the canonical v0.2 mechanics baseline.
 
+## First playable experiment
+
+A dependency-free browser experiment now exists in [`prototype/`](prototype/).
+
+Prototype v0.3 tests:
+
+- master time versus player seconds;
+- the stability gradient;
+- anomaly exposure as seconds fall;
+- physical → metaphase → light/information presentation states;
+- visibility of a possible simulation boundary;
+- `0 seconds` without forcing automatic death or teleportation.
+
+The numerical thresholds are experimental only and are **not canonical game balance**. See [`prototype/README.md`](prototype/README.md).
+
 ## What this project is
 
 This repository is the public beginning of the experiment.
@@ -73,9 +88,9 @@ It is not presented as a scientific proof that reality is — or is not — a si
 
 ## Status
 
-**v0.2 — mechanics definition / pre-prototype.**
+**v0.3 — first playable experiment implemented; play-test pending.**
 
-The next safe development stage is the smallest playable experiment that demonstrates the relationship between seconds, stability, anomalies and a simulation boundary. See [`ROADMAP.md`](ROADMAP.md).
+The project does not advance to the identity/memory stage until this experiment is actually run and its results are reviewed. See [`ROADMAP.md`](ROADMAP.md).
 
 ## Project records
 
