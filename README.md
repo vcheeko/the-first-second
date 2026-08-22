@@ -77,11 +77,18 @@ The first public version is focused on defining the rules of time, identity, sim
 
 See [`CONCEPT.md`](CONCEPT.md) for the current canonical concept.
 
+## Project records
+
+- [`PROVENANCE.md`](PROVENANCE.md) — public origin and development provenance
+- [`COPYRIGHT.md`](COPYRIGHT.md) — copyright and rights notice
+- [`TRADEMARK.md`](TRADEMARK.md) — current project-name / trade-mark status
+- [`CONTRIBUTING.md`](CONTRIBUTING.md) — contribution policy
+
 ## Rights
 
-Copyright © 2026 Miha Tavcar. **All rights reserved.**
+Copyright © 2026 Miha Tavčar. **All rights reserved.**
 
-This repository is public for visibility and development history, but no open-source or open-content license is granted unless explicitly stated. See [`COPYRIGHT.md`](COPYRIGHT.md).
+This repository is public for visibility and development history, but no open-source or open-content license is granted unless explicitly stated.
 
 ---
 
