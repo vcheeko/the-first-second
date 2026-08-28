@@ -1,5 +1,7 @@
 # THE FIRST SECOND
 
+[![quality](https://github.com/vcheeko/the-first-second/actions/workflows/quality.yml/badge.svg?branch=main)](https://github.com/vcheeko/the-first-second/actions/workflows/quality.yml)
+
 **A simulation game built around one question:**
 
 > **Can we prove that our reality is not a simulation?**
@@ -85,6 +87,21 @@ Prototype v0.3 tests:
 - `0 seconds` without forcing automatic death or teleportation.
 
 The numerical thresholds are experimental only and are **not canonical game balance**. See [`prototype/README.md`](prototype/README.md).
+
+## Engineering evidence
+
+The v0.3 browser experiment now uses the same extracted `prototype/mechanics.js` module in both the browser and automated tests.
+
+The `quality` GitHub Actions workflow checks:
+
+- JavaScript syntax for the mechanics and browser application;
+- exact Seconds-band boundaries around `150`, `75`, `30` and `0` seconds;
+- bounded and monotonic stability behavior;
+- the deliberately unresolved zero-seconds outcome;
+- browser script load order;
+- dependency-free browser smoke behavior for initialization, controls, pause/resume, zero state and reset.
+
+The quality gate runs on pull requests and on pushes to `main`. A green badge means the current `main` revision passed those automated checks; it is **not** a claim that the long-term game, balance or 3D experience is complete.
 
 ## What this project is
 
